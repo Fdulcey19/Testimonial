@@ -87,7 +87,7 @@ body{
 }
 .hi-slide > ul >li:hover{
     
-    border-radius: 0;
+    scale:1.1;
     
 }
 .hi-slide > ul >li >img{
@@ -96,10 +96,3 @@ body{
     border-radius: 50%;
     background-position: center;
 }
-
-@media (max-width: 768px) {
-    .hi-slide > ul >li {
-      width: 20%;
-      height: 10%;
-    }
-  }
