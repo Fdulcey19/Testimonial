@@ -1,46 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Testimonial</title>
-
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonios</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
 </head>
+
 <body>
+  <!-- Slider de Integrantes -->
+  <div class="container-fluid ">
+    <h1 class="text-center mt-5 fw-bold">INTEGRANTES</h1>
+    <!-- Carrusell Para pantalla Grande -->
+    <div class="d-flex justify-content-center bg-white d-none d-md-block carousel-grande">
+      <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade w-100 "
+        data-bs-ride="carousel">
 
+        <div class="carousel-inner px-5">
+          <!-- Primer Equipo -->
+          <div class="carousel-item active text-center d-flex  justify-content-center  w-100">
 
-    <div class="slide hi-slide">
-        <div class="hi-prev"></div>
-        <div class="hi-next"></div>
-        <ul>
-            <li>
-                <img src="img/JhonSF.png" alt="">
-            </li>
-            <li>
-                <img src="img/YonatanSF.png" alt="">
-            </li>
-            <li>
-                <img src="img/HernanSF2.png" alt="">
-            </li>
-            <li>
-                <img src="img/Perfil_SF.png" alt="">
-            </li>
-            <li>
-                <img src="img/carlosSF.png" alt="">
-            </li>
-            <li>
-                <img src="img/SeguraSF.png" alt="">
-            </li>
-        </ul>
+            <div class="card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/Perfil_SF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Felipe Dulcey Idrobo</h5>
+                <h6 class="card-title">Scrum Master</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow "Target="_blank"  href="https://www.instagram.com/felipe_dullcey/"><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href="https://www.facebook.com/felipe.dullcey/"><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ms-3 card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/carlosSF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Carlos Noguera Cordoba</h5>
+                <h6 class="card-title">Product Owner</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href="https://www.instagram.com/krlos_nc/"><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href="https://www.facebook.com/robertocarlos.nogueracordoba"><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Segundo Equipo -->
+          <div class="carousel-item text-center d-flex justify-content-center  w-100">
+            <div class="card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/SeguraSF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Felipe Segura Villamarin</h5>
+                <h6 class="card-title">Full Stack Developer</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href="https://www.facebook.com/felipesegura0"><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ms-3  card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/JhonSF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jhon Sebastian Hurtado</h5>
+                <h6 class="card-title">Full Stack Developer</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href="https://www.facebook.com/jhon.xat2"><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tercer Equipo -->
+          <div class="carousel-item text-center d-flex justify-content-center  w-100">
+            <div class="card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/YonatanSF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Yonatan David Pechene</h5>
+                <h6 class="card-title">Full Stack Developer</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href="https://www.facebook.com/Yonatan.suarez08"><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ms-3  card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/HernanSF2.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hernan Dario Zuñiga</h5>
+                <h6 class="card-title">Full Stack Developer</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href="https://www.facebook.com/hernandario.zuniga.79"><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     </div>
+    <!-- =============================================================== -->
+    <!-- Carrusell Para Pantalla Pequeña -->
+    <div class="d-flex justify-content-center bg-white d-md-none carousel-pequeño">
+      <div id="carouselExampleFade2" class="carousel carousel-dark slide carousel-fade w-100 my-5"
+        data-bs-ride="carousel">
 
-    <script src="https://code.jquery.com/jquery-3.6.3.js"> </script>
-    <script src="js/jquery.hislide.js"></script>
-    <script>
-         $('.slide').hiSlide();
-    </script>
+        <div class="carousel-inner px-5">
+          <!-- Primer Equipo -->
+          <div class="carousel-item active text-center d-flex  justify-content-center  w-100">
 
+            <div class="card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/Perfil_SF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Felipe Dulcey Idrobo</h5>
+                <h6 class="card-title">Scrum Master</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow "Target="_blank"  href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center d-flex  justify-content-center  w-100">
+            <div class="ms-3 card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/carlosSF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Carlos Noguera Cordoba</h5>
+                <h6 class="card-title">Product Owner</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Segundo Equipo -->
+          <div class="carousel-item text-center d-flex justify-content-center  w-100">
+            <div class="card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/SeguraSF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Felipe Segura Villamarin</h5>
+                <h6 class="card-title">Full Stack Developer</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center d-flex  justify-content-center  w-100">
+            <div class="ms-3  card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/JhonSF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jhon Sebastian Hurtado</h5>
+                <h6 class="card-title">Full Stack Developer</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tercer Equipo -->
+          <div class="carousel-item text-center d-flex justify-content-center  w-100">
+            <div class="card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/YonatanSF.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Yonatan David Pechene</h5>
+                <h6 class="card-title">Full Stack Developer</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center d-flex justify-content-center  w-100">
+            <div class="ms-3  card card-integrantes my-5" style="width: 18rem;">
+              <img src="img/HernanSF2.png" class="card-img-top m-auto d-block w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hernan Dario Zuñiga</h5>
+                <h6 class="card-title">Full Stack Developer</h6>
+                <ul class="d-flex redes-integrantes justify-content-center">
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/whatsapp.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/instagram.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                  <li><a class=" bg-yellow" Target="_blank" href=""><img src="img/facebook.svg" class=" p-2 rounded mb-2" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+    <!--  ======================================================================================= -->
+    <!-- Container End -->
+  </div>
+
+  <!-- Slider de Testimonios -->
+
+  <div class="container-fluid w-100 ">
+    <h1 class="text-center mt-5 fw-bold">TESTIMONIOS</h1>
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card m-auto my-4 card-testimonios" style="max-width: 650px;">
+            <img class="comillas-img" src="img/comillas.png" alt="">
+            <div class="card-body">
+              <p class="card-text px-5 ">TRAMO es una buena idea para ayudar a mejor la forma en que se solicita
+                                        un servicio de Transporte de carga, es de gran ayuda para el gremio de 
+                                        conductores, Desde que la uso han aumentado mis ingresos y todo el tiempo
+                                        recibo solicitudes de nuevos clientes</p>
+            </div>
+            <img src="img/testimonio1.jpg" class="card-img-top m-auto w-25" alt="...">
+            <h5 class="fw-bold text-center">Sebastian Herrera</h6>
+            <h6 class="fw-lighter text-center">Conductor</h6>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card m-auto my-4 card-testimonios" style="max-width: 650px;">
+            <img class="comillas-img" src="img/comillas.png" alt="">
+            <div class="card-body">
+              <p class="card-text px-5 ">TRAMO es una buena idea para ayudar a mejor la forma en que se solicita
+                                        un servicio de Transporte de carga, es de gran ayuda para el gremio de 
+                                        conductores, Desde que la uso han aumentado mis ingresos y todo el tiempo
+                                        recibo solicitudes de nuevos clientes</p>
+            </div>
+            <img src="img/testimonio2.jpg" class="card-img-top m-auto w-25" alt="...">
+            <h5 class="fw-bold text-center">Francisco Matinez</h6>
+            <h6 class="fw-lighter text-center">Conductor</h6>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card m-auto my-4 card-testimonios" style="max-width: 650px;">
+            <img class="comillas-img" src="img/comillas.png" alt="">
+            <div class="card-body">
+              <p class="card-text px-5 ">TRAMO es una buena idea para ayudar a mejor la forma en que se solicita
+                                        un servicio de Transporte de carga, es de gran ayuda para el gremio de 
+                                        conductores, Desde que la uso han aumentado mis ingresos y todo el tiempo
+                                        recibo solicitudes de nuevos clientes</p>
+            </div>
+            <img src="img/testimonio3.jpg" class="card-img-top m-auto w-25" alt="...">
+            <h5 class="fw-bold text-center">Marcelo Pelaez</h6>
+            <h6 class="fw-lighter text-center">Conductor</h6>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+
+
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Características</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Precios</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Acerca</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2023 Company, Inc</p>
+    </footer>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
